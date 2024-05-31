@@ -1,14 +1,15 @@
-- 🌱 I’m currently learning ...<br/><br/>
-  - GitHub Copilot AI-assisted development. This is going to be a game changer.
+- 🌱 <b> I’m currently learning ...</b><br/><br/>
+  - **GitHub Copilot** AI-assisted development. This is going to be a game changer. &nbsp;✨
     - For example, helped me fix a tricky Angular web [issue](https://github.com/smagara/AgilitySports_web/issues/1) with this [change](https://github.com/smagara/AgilitySports_web/pull/2/commits/fdec50fd43de72d22ffcbdc25f095e55dbbe14a8).<br/>
-  - GitHub Project tracking tools -- they now rival TFS/DevOps.  Check out this sample project: [AgilitySports Sample Project](https://github.com/users/smagara/projects/3/views/1)<br/>
-  - Automated GitHub actions, such as automated builds into Dev/Green on approved Pull requests.<br/>
-  - Azure Cloud integration.  Studying for AZ-900 Microsoft certification.
+  - **GitHub Project** tracking tools -- they now rival TFS/DevOps.  Check out this sample project: [AgilitySports Sample Project](https://github.com/users/smagara/projects/3/views/1)<br/>
+  - **GitHub Actions** for CI/CD automation, such as automated releases into Dev/Green regions on approved Pull requests.<br/>
+  - **Azure** Cloud integration.  Studying for AZ-900 Microsoft certification.
     - Azure SQL database setup and migration
     - Website and RESTful API hosting
     - Automated deployment pipelines
+    - SQL database tracing techniques
 
-# Current GitHub Stats
+<b>*Current GitHub Stats:*</b>
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=smagara&count_private=true&theme=tokyonight&showicons=true)]()
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=smagara&langs_count=5&theme=tokyonight)]()
