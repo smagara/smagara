@@ -1,14 +1,17 @@
-- 🌱 <b> I’m currently learning ...</b><br/><br/>
+- 🌱 <b> I’m currently working on ...</b><br/><br/>
   - **GitHub Copilot** AI-assisted development. This is going to be a game changer. &nbsp;✨
     - For example, helped me fix a tricky Angular web [issue](https://github.com/smagara/AgilitySports_web/issues/1) with this [change](https://github.com/smagara/AgilitySports_web/pull/2/commits/fdec50fd43de72d22ffcbdc25f095e55dbbe14a8).<br/>
     - In *seconds* directed me to fix this menu style [issue](https://github.com/smagara/AgilitySports_web/issues/3) with a quick CSS [adjustment](https://github.com/smagara/AgilitySports_web/pull/4/commits/c039f95301deef8254f04f9140d38f4548d68cad).
+    - Completed the Microsoft Build Challenge "Accelerate Developer Productivity with GitHub and Azure for Developers"
   - **GitHub Project** tracking tools -- they now rival TFS/DevOps.  Check out this sample project: [AgilitySports Sample Project](https://github.com/users/smagara/projects/3/views/1)<br/>
   - **GitHub Actions** for CI/CD automation, such as automated releases into Dev/Green regions on approved Pull requests.<br/>
-  - **Azure** Cloud integration.  Studying for AZ-900 Microsoft certification.
+  - **Azure** Cloud integration.
+    - AZ-900 Microsoft Azure Fundamentals certified.
     - Azure SQL database setup and migration
     - Website and RESTful API hosting
     - Automated deployment pipelines
     - SQL database tracing techniques
+    - Working toward the AI-900 (Artificial Intelligence) certification
 
 <b>*Current GitHub Stats:*</b>
 
