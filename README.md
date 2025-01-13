@@ -14,9 +14,10 @@
     - AZ-900 Microsoft Azure Fundamentals certified.
     - Azure SQL database setup and migration
     - Website and RESTful API hosting
+    - Azure Functions as a lightweight serverless API alternative
     - Automated deployment pipelines
     - SQL database tracing techniques
-    - Azure EntreId Managed Identity for database access
+    - Azure Entra Id Managed Identity service accounts for database access
     - Working toward the AI-900 (Artificial Intelligence) certification
 
 <b>*Current GitHub Stats:*</b>
