@@ -12,13 +12,13 @@
   - **GitHub Actions** for CI/CD automation, such as automated releases into Dev/Green regions on approved Pull requests.<br/>
   - **Azure** Cloud integration.
     - AZ-900 Microsoft Azure Fundamentals certified.
-    - Azure SQL database setup and migration
+    - AI-900 Microsoft Azure AI Fundamentals certified.
+    - Azure SQL and MySQL database setup and migration
     - Website and RESTful API hosting
     - Azure Functions as a lightweight serverless API alternative
     - Automated deployment pipelines
     - SQL database tracing techniques
     - Azure Entra Id Managed Identity service accounts for database access
-    - Working toward the AI-900 (Artificial Intelligence) certification
 
 <b>*Current GitHub Stats:*</b>
 
