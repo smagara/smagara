@@ -1,9 +1,7 @@
-# Welcome to my GitHub!
-
 ## 🔭 I'm currently working on
-  - The HuggingFace AI Agent coursework
+  - Trying to understand AI, Copilots and their role
+  - HuggingFace AI Agent coursework, and associated Python/Jupyter
   - Responsive web design study
-  - Learning Python and Jupyter for AI
   - Seeking a unified theory of software development
   
 ## ☁️ **Recent Azure Cloud work**
@@ -14,6 +12,32 @@
   - SQL database tracing techniques
   - Azure Entra Id Managed Identity service accounts for database access
   - Azure Data Factory data transfer between cloud and on-prem SQL Server
+
+## 🔨 **Highlighted hands-on skills**
+
+<details>
+  <summary>📁 RESTful APIs sample items (C#)</summary>
+
+  - Implement CRUD API endpoints for NFL screens: [Here](https://github.com/smagara/AgilitySports_api/issues/31)
+  - Refactor a cluttered program.cs in a DotNet Minimal API: [Here](https://github.com/smagara/AgilitySports_api/issues/24)
+  - Support sparse updates via PUT (soon to be PATCH): [Here](https://github.com/smagara/AgilitySports_api/issues/20)
+</details>
+
+<details>
+  <summary>📁 SQL Server sample items (TSQL)</summary>
+
+  - Add Temporal table auditing: [Here](https://github.com/smagara/AgilitySports_data/issues/4)
+  - Modify an existing table to add a Primary key: [Here](https://github.com/smagara/AgilitySports_data/issues/7)
+  - Fix a permissions bug: [Here](https://github.com/smagara/AgilitySports_data/issues/10)
+</details>
+
+<details>
+  <summary>📁 Angular Website sample items (Typescript)</summary>
+
+  - Implement CRUD for NBA grid: [Here](https://github.com/smagara/AgilitySports_web/issues/50)
+  - Trim all NHL text fields before storing: [Here](https://github.com/smagara/AgilitySports_web/issues/61)
+  - Fix a "Loading" message bug: [Here](https://github.com/smagara/AgilitySports_web/issues/43)
+</details>
 
 ## 📝 **GitHub Project Management**
 
