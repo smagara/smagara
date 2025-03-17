@@ -1,17 +1,25 @@
 ## 🔭 I'm currently working on
-  - Trying to understand AI, Copilots and their role
-  - HuggingFace AI Agent coursework, and associated Python/Jupyter
+  - Trying to understand AI, Copilots, and Agents
+  - HuggingFace AI Agent coursework, and associated hands-on Python/Jupyter
   - Responsive web design study
   - Seeking a unified theory of software development
   
-## ☁️ **Recent Azure Cloud work**
+## ☁️ **Microsoft Azure**
+
+<details>
+  <summary>📁 Recent learning experiences, prep for the Certs</summary>
+
   - Azure SQL and MySQL database setup and migration
-  - Website and RESTful API hosting
+  - Website and RESTful API hosting with Domain record management
   - Azure Functions as a lightweight serverless API alternative
-  - Automated deployment pipelines
-  - SQL database tracing techniques
+  - Automated all my deployment pipelines
+  - Azure SQL database tracing and auditing techniques
   - Azure Entra Id Managed Identity service accounts for database access
   - Azure Data Factory data transfer between cloud and on-prem SQL Server
+  - Explore the Azure AI Services and complete the Microsoft Learn examples
+  - Set up Budget alerts
+
+</details>
 
 ## 🔨 **Highlighted hands-on skills**
 
@@ -39,6 +47,12 @@
   - Fix a "Loading" message bug: [Here](https://github.com/smagara/AgilitySports_web/issues/43)
 </details>
 
+<details>
+  <summary>📁 Legacy (Java)</summary>
+
+  - Dust off a traffic simulator sample exercise: [Here](https://github.com/smagara/TraffSym-Java)
+</details>
+
 ## 📝 **GitHub Project Management**
 
 <details>
@@ -52,7 +66,7 @@
   - **GitHub Templates**: to standardize the format and content of Issues, Bugs, Pull Requests [Here](https://github.com/smagara/.github)
 </details>
 
-## ⚙️ **GitHub Actions** for CI/CD automation, samples
+## ⚙️ **GitHub Actions** for CI/CD automation
 
 <details>
   <summary>📁 Deploy an Angular website to Azure WebApp</summary>
