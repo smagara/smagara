@@ -1,41 +1,118 @@
-- 🌱 <b> I’m currently working on ...</b><br/><br/>
-  - **GitHub Copilot** AI-assisted development. This is going to be a game changer. &nbsp;✨
-    - For example, helped me fix a tricky Angular web [issue](https://github.com/smagara/AgilitySports_web/issues/1) with this [change](https://github.com/smagara/AgilitySports_web/pull/2/commits/fdec50fd43de72d22ffcbdc25f095e55dbbe14a8).<br/>
-    - In *seconds* directed me to fix this menu style [issue](https://github.com/smagara/AgilitySports_web/issues/3) with a quick CSS [adjustment](https://github.com/smagara/AgilitySports_web/pull/4/commits/c039f95301deef8254f04f9140d38f4548d68cad).
-    - Guided me through setting up a GitHub Action CI/CD pipeline for an Angular app.  This took some prompting.  The default Node deployment option produced 24,000 output files and was inefficient as well as scary.  Copilot at first suggested zip step in the yaml but this didn't sound right, since an ng build for deployment produces 4 output files.  After discussing this with Copilot the result was a simpler and faster pipeline [here](https://github.com/smagara/AgilitySports_web/blob/main/.github/workflows/deployAgilitySports.js.yml).  You have to keep prompting :).
-    - I use it often now as a pair programmer and part-time architect with @workspace questions about better practices.
-    - Completed the Microsoft Build Challenge "Accelerate Developer Productivity with GitHub and Azure for Developers"
-  - **GitHub Project** tracking tools -- they now rival TFS/DevOps.
-    - Check out this sample project: [AgilitySports Sample Project](https://github.com/users/smagara/projects/3/views/1).
-    - This makes me curious about the Microsoft roadmap for DevOps/TFS as a tracking tool and sourcecode repository.
-    - Keep up with project announcements [here](https://github.com/smagara/AgilitySports_web/discussions).
-  - **GitHub Actions** for CI/CD automation, such as automated releases into Dev/Green regions on approved Pull requests.<br/>
-  - **Azure** Cloud integration.
-    - AZ-900 Microsoft Azure Fundamentals certified.
-    - AI-900 Microsoft Azure AI Fundamentals certified.
-    - Azure SQL and MySQL database setup and migration
-    - Website and RESTful API hosting
-    - Azure Functions as a lightweight serverless API alternative
-    - Automated deployment pipelines
-    - SQL database tracing techniques
-    - Azure Entra Id Managed Identity service accounts for database access
+# Welcome to my GitHub!
 
-<b>*Current GitHub Stats:*</b>
+## 🔭 I'm currently working on
+  - The HuggingFace AI Agent coursework
+  - Responsive web design study
+  - Learning Python and Jupyter for AI
+  - Seeking a unified theory of software development
+  
+## ☁️ **Recent Azure Cloud work**
+  - Azure SQL and MySQL database setup and migration
+  - Website and RESTful API hosting
+  - Azure Functions as a lightweight serverless API alternative
+  - Automated deployment pipelines
+  - SQL database tracing techniques
+  - Azure Entra Id Managed Identity service accounts for database access
+  - Azure Data Factory data transfer between cloud and on-prem SQL Server
 
+## 📝 **GitHub Project Management**
+
+<details>
+  <summary>📁 Sample GitHub Project, AgilitySports</summary>
+
+  - **Description**: [Here](https://github.com/smagara/AgilitySports_web/blob/main/README.md)
+  - **Kanban View**: [Here](https://github.com/users/smagara/projects/3/views/1)
+  - **Issues by Label**: [Here](https://github.com/users/smagara/projects/3/insights/3?xAxis%5BdataSource%5D%5Bcolumn%5D=112551931&xAxis%5BgroupBy%5D=&yAxis%5Baggregate%5D%5Boperation%5D=count&yAxis%5Baggregate%5D%5Bcolumns%5D=)
+  - **Burn Up**: [Here](https://github.com/users/smagara/projects/3/insights?period=3M)
+  - **Project Announcements**: [Here](https://github.com/smagara/AgilitySports_web/discussions)
+  - **GitHub Templates**: to standardize the format and content of Issues, Bugs, Pull Requests [Here](https://github.com/smagara/.github)
+</details>
+
+## ⚙️ **GitHub Actions** for CI/CD automation, samples
+
+<details>
+  <summary>📁 Deploy an Angular website to Azure WebApp</summary>
+
+  - **GitHub CI/CD script**: [YAML](https://github.com/smagara/AgilitySports_web/blob/main/.github/workflows/deployAgilitySports.js.yml)
+  - **Trigger**: Successful merge to Main branch
+  - **Repository**: [AgilitySports_Web](https://github.com/smagara/AgilitySports_web)
+  - **Template Used**: Custom. 
+    - The Node.js standard template was too slow and produced 24,000 files. 
+    - Instead, call the Angular CLI to build minimal artifacts.
+  - **History**: [GitHub Deployments](https://github.com/smagara/AgilitySports_web/deployments)
+</details>
+
+<details>
+  <summary>📁 Deploy a DotNet Minimal RESTFul API to Azure App Service</summary>
+
+  - **GitHub CI/CD script**: [YAML](https://github.com/smagara/AgilitySports_api/blob/main/.github/workflows/azure-webapps-dotnet-core.yml)
+  - **Trigger**: Successful merge to Main branch
+  - **Repository**: [AgilitySports_api](https://github.com/smagara/AgilitySports_api)
+  - **Template Used**: .NET Core. Deploy to an Azure App Service.
+  - **History**: [GitHub Deployments](https://github.com/smagara/AgilitySports_api/deployments)
+</details>
+
+
+## 🏆 Certifications
+
+<details>
+  <summary>☁️ Microsoft Certified: AZ-900 Azure Fundamentals</summary>
+  
+  - **Issued by**: Microsoft
+  - **Issued on**: June 2025
+  - **Expiration**: February 2024
+  - **Credential ID**: 2E09465283EF31F9
+  - **Certification number**: F9EDQ8-44929D
+  - **Verification**: [Microsoft link](https://learn.microsoft.com/api/credentials/share/en-us/SteveMagara-2124/2E09465283EF31F9?sharingId=F7F4615831928D3)
+</details>
+
+<details>
+  <summary>☁️ Microsoft Certified: AI-900 Azure AI Fundamentals</summary>
+
+  - **Issued by**: Microsoft
+  - **Issued on**: January 2025
+  - **Expiration**: February 2027
+  - **Credential ID**: 900F805D0277A43A
+  - **Certification number**: 571A95-4A164U
+- **Verfication**: [Microsoft link](https://learn.microsoft.com/api/credentials/share/en-us/SteveMagara-2124/900F805D0277A43A?sharingId=F7F4615831928D3)
+</details>
+
+<details>
+  <summary>🟣 Foundational C# with Microsoft</summary>
+
+  - **Issued by**: freeCodeCamp
+  - **Issued on**: April 2024
+  - **Verification**: [On freeCodeCamp.org](https://www.freecodecamp.org/certification/fcc44d75b70-dbbe-432d-bc93-0d977182a6cb/foundational-c-sharp-with-microsoft)
+</details>
+
+<details>
+  <summary>🎥 Camtasia Certification Course</summary>
+
+  - **Description**: Video editing software
+  - **Issued by**: TechSmith
+  - **Issued on**: February 2025
+  - **Expiration**: February 2027
+  - **Credential ID**: nq3mjkofp3j3
+  - **Verification**: [On SkillJar](https://verify.skilljar.com/c/nq3mjkofp3j3)
+</details>
+
+<details>
+  <summary>🤗 AI Agents Fundamentals Course</summary>
+
+  - **Description**: 
+    - AI Agents have the ability to Think, through LLMs, then Act through Tools that can interact with the environment, and Observe the result.
+    - This Think→Act→Observe workflow allows them to "do things".
+    - Typically they are built in a Jupyter notebook with Python code.
+  - **Issued by**: Hugging Face
+  - **Issued on**: February 2025
+  - **Expiration**: February 2027
+  - **Credential ID**: tigerstride
+  - **Verification**: [On HuggingFace.co](https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/tigerstride/2025-02-21.png)
+</details>
+
+## 📈 GitHub Stats
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=smagara&langs_count=4&theme=tokyonight)]()
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=smagara&count_private=true&theme=tokyonight&showicons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=smagara&langs_count=5&theme=tokyonight)]()
 
-<!--
-**smagara/smagara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Traffic
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=smagara.visitor-badge)
