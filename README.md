@@ -90,6 +90,15 @@
   - **History**: [GitHub Deployments](https://github.com/smagara/AgilitySports_api/deployments)
 </details>
 
+<details>
+  <summary>📁 Current Agility Sports CI/CD Status</summary>
+
+  | Application | Environment | Tech | Status |
+  |---|---|---|---|
+  | Agility Sports Website | Production | Angular Web App | [![Build Status](https://github.com/smagara/AgilitySports_Web/actions/workflows/deployAgilitySports.js.yml/badge.svg)](https://github.com/smagara/AgilitySports_Web/actions) |
+  | Agility Sports API | Production | DotNet Core Minimal API | [![Build Status](https://github.com/smagara/AgilitySports_API/actions/workflows/azure-webapps-dotnet-core.yml/badge.svg)](https://github.com/smagara/AgilitySports_API/actions) |
+  | Agility Sports SQL | Production | Azure SQL | [![Build Status](https://github.com/smagara/AgilitySports_Data/actions/workflows/executsql.yml/badge.svg)](https://github.com/smagara/AgilitySports_Data/actions) |
+</details>
 
 ## 🏆 Certifications
 
@@ -154,3 +163,5 @@
 
 ## Traffic
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=smagara.visitor-badge)
+
+
