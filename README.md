@@ -1,9 +1,19 @@
 ## 🔭 I'm currently working on
-  - Trying to understand AI, Copilots, and Agents
-  - HuggingFace AI Agent coursework, and associated hands-on Python/Jupyter
+  - Foundational training in AI, Copilots, and Agents
+  - HuggingFace AI Agent coursework with hands-on Python/Jupyter
   - Responsive web design study
   - Seeking a unified theory of software development
   
+## ☁️ **AI Training**
+
+<details>
+  <summary>📁 freeCodeCamp LangGraph Course</summary>
+  
+  - <p> **LangGraph** is a library built on top of Langchain that allows developers to create stateful, multi-actor applications using large language models (LLMs). It extends LangChain's capabilities by enabling the construction of cyclic graphs, and provides a framework for building complex agents that can reason, make decisions, and interact with multiple data sources. </p>
+  - [🚀 Coursework here](https://github.com/smagara/LangGraph-Coursework/blob/main/README.md)
+
+</details>
+
 ## ☁️ **Microsoft Azure**
 
 <details>
