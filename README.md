@@ -110,6 +110,91 @@
   | Agility Sports SQL | Production | Azure SQL | [![Build Status](https://github.com/smagara/AgilitySports_Data/actions/workflows/executsql.yml/badge.svg)](https://github.com/smagara/AgilitySports_Data/actions) |
 </details>
 
+<details>
+  <summary>📁 Enforce C# try/catch best practices in the GitHub Action deployment pipeline</summary>
+
+  - **GitHub Issue**: [GitHub Action CI/CD pipeline to check for empty Catch blocks and Logging](https://github.com/smagara/AgilitySports_api/issues/38)
+  - **Rules Enforced**: Catch blocks cannot be empty and need to call our proprietary LogError() method
+  - **Tool Used**: ```dotnet-script``` to leverage Roslyn's scripting capability that understands C# code and can enforce best practices
+  - **Script details**:
+    <details>
+      <summary>📁 Roslyn dotnet-script here </summary>
+    
+      ``` c#
+      #r "nuget: Microsoft.CodeAnalysis.CSharp, 4.8.0"
+      
+      using Microsoft.CodeAnalysis;
+      using Microsoft.CodeAnalysis.CSharp;
+      using Microsoft.CodeAnalysis.CSharp.Syntax;
+      using System.IO;
+      
+      int violations = 0;
+      string[] files = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.cs", SearchOption.AllDirectories);
+      
+      foreach (var file in files)
+      {
+          var code = File.ReadAllText(file);
+          var tree = CSharpSyntaxTree.ParseText(code);
+          var root = tree.GetRoot();
+      
+          var catchClauses = root.DescendantNodes().OfType<CatchClauseSyntax>();
+      
+          foreach (var catchClause in catchClauses)
+          {
+              var block = catchClause.Block;
+      
+              if (block == null || !block.Statements.Any())
+              {
+                  Console.WriteLine($"❌ Empty catch block: {file}");
+                  violations++;
+                  continue;
+              }
+      
+              bool hasLogError = block.Statements
+                  .OfType<ExpressionStatementSyntax>()
+                  .Any(stmt =>
+                      stmt.ToString().Contains("LogError"));
+      
+              if (!hasLogError)
+              {
+                  Console.WriteLine($"❌ Catch block missing LogError: {file}");
+                  violations++;
+              }
+          }
+      }
+      
+      if (violations > 0)
+      {
+          Console.WriteLine($"\nFound {violations} catch block violations.");
+          Environment.Exit(1);
+      }
+      else
+      {
+          Console.WriteLine("✅ All catch blocks are valid.");
+      }
+      ```
+    </details>
+    
+    <details>
+      <summary>📁 Relevant YAML snippet from the GitHub Action</summary>
+    
+      ``` yaml
+        steps:
+          - uses: actions/checkout@v4
+    
+          - name: Install dotnet-script
+            run: dotnet tool install -g dotnet-script
+    
+          - name: Run Catch Block Analysis
+            run: dotnet-script roslyn/CheckCatchBlocks.csx
+      ```
+    </details>
+  
+  - **Trigger**: Successful merge to Main branch
+  - **Repository**: [AgilitySports_api](https://github.com/smagara/AgilitySports_api)
+
+</details>
+
 ## 🏆 Certifications
 
 <details>
