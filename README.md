@@ -254,8 +254,8 @@
 </details>
 
 ## 📈 GitHub Stats
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=smagara&langs_count=4&theme=tokyonight)]()
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=smagara&count_private=true&theme=tokyonight&showicons=true)]()
+![My GitHub Language Stats](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=smagara&langs_count=4&theme=tokyonight)
+![My GitHub Usage Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=smagara&show_icons=true&theme=tokyonight)
 
 ## Traffic
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=smagara.visitor-badge)
