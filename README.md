@@ -1,9 +1,10 @@
 ## 🔭 I'm currently working on
   - Foundational training in AI, Copilots, and Agents
-  - HuggingFace AI Agent coursework with hands-on Python/Jupyter
-  - Responsive web design study
+  - Azure platform AI study
   - Expanding my GitHub DevOps knowledge and skills
-  - Seeking a unified theory of software development
+  - AI-assisted code upgrades
+  - Occasional temporary contract AI training 
+  - (Still) seeking a unified theory of software development
   
 ## ☁️ **AI Training**
 
