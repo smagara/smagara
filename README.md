@@ -1,4 +1,5 @@
 ## 🔭 I'm currently working on
+  - Normalize the AgilitySports test application database and its full stack. Prep for future AI tool support.
   - Foundational training in AI, Copilots, and Agents
   - Azure platform AI study
   - Expanding my GitHub DevOps knowledge and skills
