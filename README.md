@@ -1,5 +1,6 @@
 ## 🔭 I'm currently working on
-  - Normalize the AgilitySports test application database and its full stack as Prep for future AI tool support. Final [PR](https://github.com/smagara/AgilitySports_web/pull/116).
+  - Normalize the AgilitySports test application database and its full stack as Prep for future AI tool support. Final [Issue](https://github.com/smagara/AgilitySports_data/issues/15) and [PR](https://github.com/smagara/AgilitySports_web/pull/116).
+  - Running out of Copilot/Codex token credits for assisted coding? Ask your favorite chatbot how a .continueigore and/or .copilotignore file could help.
   - Foundational training in AI, Copilots, and Agents
   - Azure platform AI study
   - Expanding my GitHub DevOps knowledge and skills
