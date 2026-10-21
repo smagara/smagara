@@ -1,6 +1,5 @@
 ## 🔭 I'm currently working on
-  - [Decap CMS](https://decapcms.org/) integration
-  - Normalize the AgilitySports test application database and its full stack as Prep for future AI tool support. Final [Issue](https://github.com/smagara/AgilitySports_data/issues/15) and [PR](https://github.com/smagara/AgilitySports_web/pull/116).
+  - GitHub-backed CMS system integrations, such as [Decap CMS](https://decapcms.org/) and [Sveltia CMS](https://sveltiacms.app/en).
   - Running out of Copilot/Codex token credits for assisted coding? Ask your favorite chatbot how a `.continueigore` and/or `.copilotignore` file could help.
   - Foundational training in AI, Copilots, and Agents
   - AI-assisted coding
@@ -50,6 +49,7 @@
   - Add Temporal table auditing: [Here](https://github.com/smagara/AgilitySports_data/issues/4)
   - Modify an existing table to add a Primary key: [Here](https://github.com/smagara/AgilitySports_data/issues/7)
   - Fix a permissions bug: [Here](https://github.com/smagara/AgilitySports_data/issues/10)
+  - [Normalize](https://github.com/smagara/AgilitySports_data/issues/15) the AgilitySports database for easier maintenance and integrations
 </details>
 
 <details>
